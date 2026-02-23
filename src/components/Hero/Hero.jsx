@@ -10,21 +10,28 @@ export default function Hero() {
 
   return (
     <div className="hero-container">
-      <motion.div 
-      className="hero-mask"
-      animate={{
-        webkitMaskPosition: `${x - size/2 }px ${y - size/2}px`,
-        webkitMaskSize: `${size}px`
-      }}
-      transition={{type: "tween", ease: "backOut"}}
-      >
-        <p onMouseEnter={() => {setIsHovered(true)}} onMouseLeave={() => setIsHovered(false)}>HE IS A FAT CAT SINCE 2023</p>
-      </motion.div>
-      <div className="hero-body">
-        <p>
-            BEING A<br/><span>CUTE CAT</span><br/>SINCE 2021
-        </p>
-      </div>
-    </div>
+        <div className="hero-name-container">
+          <p className="hero-name">Asche</p>
+        </div>
+        <motion.div 
+        className="hero-mask"
+        animate={{
+            webkitMaskPosition: `${x - size/2 }px ${y - size/2}px`,
+            webkitMaskSize: `${size}px`
+        }}
+        transition={{type: "tween", ease: "backOut"}}
+        >
+            <div className="hero-mask-content">
+                <p onMouseEnter={() => {setIsHovered(true)}} onMouseLeave={() => setIsHovered(false)}>
+                    HE IS A FAT ASS CAT SINCE 2023
+                </p>
+            </div>
+        </motion.div>
+        <div className="hero-body">
+            <p>
+                BEING A<br/><span>CUTE CAT</span><br/>SINCE 2021
+            </p>
+        </div>
+        </div>
   );
 }
