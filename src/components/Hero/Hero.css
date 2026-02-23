@@ -1,0 +1,45 @@
+.hero-container {
+    height: 100vh;
+    background-color: #0f0f0f;
+    position: relative;
+}
+
+.hero-body, .hero-mask {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #afa18f;
+    font-size: 80px;
+    line-height: 0.9;
+    cursor: default;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+
+.hero-body span, .hero-mask span {
+    color: #ec4e39;
+}
+
+.hero-body p, .hero-mask p {
+    width: 300px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-mask {
+    mask-image: url('../../assets/mask.svg');
+    mask-repeat: no-repeat;
+    mask-position: 50%;
+    mask-size: 40px;
+    z-index: 2;
+    background: #ec4e39;
+    color: black;
+}
+
+.hero-body {
+    z-index: 1;
+}
