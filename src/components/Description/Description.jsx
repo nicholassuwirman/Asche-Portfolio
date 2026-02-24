@@ -11,25 +11,30 @@ export default function Hero() {
   return (
     <div>
         <div className="description-container">
-            <div className="hero-name-container">
+            <div className="description-name-container">
+            <p className="description-name">ABOUT ME</p>
             </div>
             <motion.div 
-            className="hero-mask"
+            className="description-mask"
             animate={{
                 webkitMaskPosition: `${x - size/2 }px ${y - size/2}px`,
                 webkitMaskSize: `${size}px`
             }}
             transition={{type: "tween", ease: "backOut"}}
             >
-                <div className="hero-mask-content">
-                    <p onMouseEnter={() => {setIsHovered(true)}} onMouseLeave={() => setIsHovered(false)}>
-                        HE IS A FAT ASS CAT SINCE 2023
+                <div className="description-mask-content">
+                    <p class="description-text" onMouseEnter={() => {setIsHovered(true)}} onMouseLeave={() => setIsHovered(false)}>
+                        He sleeps for 17 hours a day, has anger issues, 
+                        isn't cuddly, constantly hungry,
+                        wakes up at 1 am to ask for food.
                     </p>
                 </div>
             </motion.div>
-            <div className="hero-body">
-                <p>
-                    BEING A<br/><span>CUTE CAT</span><br/>SINCE 2021
+            <div className="description-body">
+                <p class="description-text">
+                    I'm a Siberian/Himalayan mixed cat with a strong focus 
+                    on producing high quality cuteness & impactful 
+                    meows. 
                 </p>
             </div>
 
