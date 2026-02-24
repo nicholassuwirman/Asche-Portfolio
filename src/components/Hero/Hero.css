@@ -1,6 +1,6 @@
 .hero-container {
     height: 100vh;
-    background: linear-gradient(to top, #1a1a1a 0%, #0f0f0f 60%, #0f0f0f 100%);
+    background: linear-gradient(to top, #1f1f1f 0%, #0f0f0f 60%, #0f0f0f 100%);
     position: relative;
 }
 
@@ -38,11 +38,10 @@
     color: var(--color-text);
     font-size: 5.5rem;
     line-height: 0.9;
-    cursor: pointer;
+    cursor: default;
     font-weight: 900;
     letter-spacing: -2px;
     flex-direction: column;
-    transition: color 0.3s ease;
 }
 
 .hero-body:hover, .hero-mask:hover {
