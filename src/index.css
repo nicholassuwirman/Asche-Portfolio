@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-accent: #B7BDF7;
+  --color-text: #afa18f;
+}
+
 html, body, #root {
   margin: 0;
   padding: 0;
