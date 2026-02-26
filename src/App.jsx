@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import ParallaxGallery from './components/ParallaxGallery/ParallaxGallery'
 import Description from './components/Description/Description'
+import Skills from './components/Skills/Skills'
 
 function App() {
   useEffect(() => {
@@ -37,6 +38,7 @@ function App() {
       <Hero />
       <ParallaxGallery />
       <Description />
+      <Skills />
     </div>
   )
 }

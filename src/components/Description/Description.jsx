@@ -32,9 +32,9 @@ export default function Hero() {
             </motion.div>
             <div className="description-body">
                 <p class="description-text">
-                    I'm a Siberian/Himalayan mixed cat with a strong focus 
-                    on producing high quality cuteness & impactful 
-                    meows. 
+                    I'm a Siberian cat with a strong focus 
+                    on producing high quality cuteness, impactful 
+                    meows, & readiness to cuddle. 
                 </p>
             </div>
 

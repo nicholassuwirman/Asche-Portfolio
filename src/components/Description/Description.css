@@ -5,18 +5,19 @@
 
 .description-name-container {
     position: absolute;
-    top: calc(45% - 150px);
-    width: 100%;
+    top: 25%;
+    left: 17.5%;
+    width: auto;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     z-index: 3;
 }
 
 .description-name {
-    font-size: 1.2rem;
+    font-size: clamp(0.75rem, 1.2vw, 1.5rem);
     font-weight: 600;
-    letter-spacing: 4px;
+    letter-spacing: 0.3vw;
     color: var(--color-text);
     margin: 0;
     text-transform: uppercase;
@@ -31,11 +32,11 @@
     justify-content: center;
     text-align: start;
     color: var(--color-text);
-    font-size: 3.7rem;
+    font-size: clamp(1.9rem, 4vw, 5.9rem);
     line-height: 0.9;
     cursor: default;
     font-weight: 900;
-    letter-spacing: -2px;
+    letter-spacing: -0.15vw;
     flex-direction: column;
 }
 
